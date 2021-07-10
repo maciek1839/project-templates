@@ -1,5 +1,5 @@
 # Title
-[Short description inluclding what the project shows and how it works]
+[Short description including what the project shows and how it works]
 
 ## Installation
 
