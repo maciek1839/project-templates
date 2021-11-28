@@ -1,6 +1,6 @@
-# <PROJECT NAME>
+# YOUR_PROJECT_NAME
 
-Practice and learn regular expressions
+PROJECT DESCRIPTION
 
 ## Getting started
 
