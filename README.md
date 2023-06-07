@@ -1,5 +1,5 @@
 # Project templates
-Examples of the README file for various projects and Confluence pages. Each of them is focused on different issues.
+Examples of README files for various projects and Confluence pages. Each of them is focused on different issues.
 
 ## README
 
@@ -8,10 +8,12 @@ A general-purpose README contains basic information about a medium-sized project
 
 [General-purpose template](readme/general/readme.md)
 
+[Gitlab template](readme/general/readme_gitlab.md)
+
 ### Demo
 A demo README which might be useful for demo/poc (proof of concept) projects.  
 
-[Demo template](readme/demo/README.md)
+[Demo template](readme/demo/readme.md)
 
 ## Confluence
 

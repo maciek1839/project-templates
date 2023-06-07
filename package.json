@@ -1,0 +1,25 @@
+{
+  "name": "project-templates",
+  "version": "0.0.0",
+  "description": "Examples of README files and Confluence pages for various projects.",
+  "scripts": {
+    "markdown:lint:windows": "markdownlint **/*.md --ignore node_modules",
+    "markdown:lint:linux": "markdownlint '**/*.md' --ignore node_modules",
+    "markdown:lint:windows:fix": "markdownlint **/*.md --fix --ignore node_modules",
+    "markdown:lint:linux:fix": "markdownlint '**/*.md' --fix --ignore node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ShowMeYourCodeYouTube/project-templates.git"
+  },
+  "author": "ShowMeYourCode!",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ShowMeYourCodeYouTube/project-templates/issues"
+  },
+  "homepage": "https://gitlab.com/ShowMeYourCodeYouTube/project-templates#readme",
+  "devDependencies": {
+    "markdownlint-cli": "~0.34.0"
+  }
+}

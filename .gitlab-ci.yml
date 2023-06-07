@@ -1,0 +1,22 @@
+image: node:16.20.0-slim
+
+before_script:
+  - echo ':before_script'
+  - cat /etc/os-release
+  - npm --version
+  - node --version
+  - npm install
+  - echo 'end :before_script'
+
+cache:
+  untracked: true
+  paths:
+    - node_modules/
+
+stages:
+  - quality-check
+
+lint:
+  stage: quality-check
+  script:
+    - npm run markdown:lint:linux
