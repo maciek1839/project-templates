@@ -13,12 +13,12 @@ General description of a project.
 
 ### Stakeholders / Contact people
 
-|Stakeholder type|Description (Responsibility description)|Stakeholder (First name & lastname)|Contact (email/phone number)|
-|-----|-----|-----|-----|
-|Product owner|Manage the product|||
-|Business|Requirement provider|||
-|Subject Matter Expert (SME)|Provide the knowledge and expertise|||
-|Software development|Maintenance & new features development|||
+| Stakeholder type            | Description (Responsibility description) | Stakeholder (First name & lastname) | Contact (email/phone number) |
+|-----------------------------|------------------------------------------|-------------------------------------|------------------------------|
+| Product owner               | Manage the product                       |||
+| Business                    | Requirement provider                     |||
+| Subject Matter Expert (SME) | Provide the knowledge and expertise      |||
+| Software development        | Maintenance & new features development   |||
 
 ### Functional requirements
 - FunctionalRequirement1
@@ -72,61 +72,61 @@ General description of a project.
 
 ### Build inventory
 
-|Component|Type of change|Description of Change|Complexity|
-|-----|-----|-----|-----|
-|Current Project|New|Create a new service|High|
-|DB|New|A new database and schema for Current Project|Low|
-|Network infrastructure|Reuse|Reuse an existing setup|Low|
-|Software development|Maintenance & new features development|||
+| Component              | Type of change                         | Description of Change                         | Complexity |
+|------------------------|----------------------------------------|-----------------------------------------------|------------|
+| Current Project        | New                                    | Create a new service                          | High       |
+| DB                     | New                                    | A new database and schema for Current Project | Low        |
+| Network infrastructure | Reuse                                  | Reuse an existing setup                       | Low        |
+| Software development   | Maintenance & new features development |||
 
 ### Network addresses
 
-|Environment|URL|
-|-----|-----|
-|Prod|https://example.com|
-|Pre-prod|https://preprod.example.com|
-|Test|https://test.example.com|
-|Dev|https://dev.example.com|
+| Environment | URL                         |
+|-------------|-----------------------------|
+| Prod        | https://example.com         |
+| Pre-prod    | https://preprod.example.com |
+| Test        | https://test.example.com    |
+| Dev         | https://dev.example.com     |
 
 ### Logging
 Splunk/Kibana/Other tools
 
-|Environment|URL|
-|-----|-----|
-|Prod|https://example.com|
-|Pre-prod|https://preprod.example.com|
-|Test|https://test.example.com|
-|Dev|https://dev.example.com|
+| Environment | URL                         |
+|-------------|-----------------------------|
+| Prod        | https://example.com         |
+| Pre-prod    | https://preprod.example.com |
+| Test        | https://test.example.com    |
+| Dev         | https://dev.example.com     |
 
 ### Monitoring
 AppDynamics/Grafana/Other tool
 
-|Environment|URL|
-|-----|-----|
-|Prod|https://example.com|
-|Pre-prod|https://preprod.example.com|
-|Test|https://test.example.com|
-|Dev|https://dev.example.com|
+| Environment | URL                         |
+|-------------|-----------------------------|
+| Prod        | https://example.com         |
+| Pre-prod    | https://preprod.example.com |
+| Test        | https://test.example.com    |
+| Dev         | https://dev.example.com     |
 
 ### Service accounts / External accounts
 
 #### Service1
 
-|Environment|Configuration|Remarks|
-|-----|-----|----|
-|Prod|https://service1.com|Check the config repository|
-|Pre-prod|https://preprod.service1.com|Check the config repository|
-|Test|https://test.service1.com|Check the config repository|
-|Dev|https://dev.service1.com|Check the config repository|
+| Environment | Configuration                | Remarks                     |
+|-------------|------------------------------|-----------------------------|
+| Prod        | https://service1.com         | Check the config repository |
+| Pre-prod    | https://preprod.service1.com | Check the config repository |
+| Test        | https://test.service1.com    | Check the config repository |
+| Dev         | https://dev.service1.com     | Check the config repository |
 
 #### Service2
 
-|Environment|Configuration|Remarks|
-|-----|-----|----|
-|Prod|https://service2.com|Check the config repository|
-|Pre-prod|https://preprod.service2.com|Check the config repository|
-|Test|https://test.service2.com|Check the config repository|
-|Dev|https://dev.service2.com|Check the config repository|
+| Environment | Configuration                | Remarks                     |
+|-------------|------------------------------|-----------------------------|
+| Prod        | https://service2.com         | Check the config repository |
+| Pre-prod    | https://preprod.service2.com | Check the config repository |
+| Test        | https://test.service2.com    | Check the config repository |
+| Dev         | https://dev.service2.com     | Check the config repository |
 
 ### Security
 
@@ -136,12 +136,12 @@ AppDynamics/Grafana/Other tool
 
 ### Database
 
-|Env.|Connection string|Credentials|DNS cnames|
-|-----|-----|-----|-----|
-|Prod|jdbc:oracle:thin@example|Check the config repository|example.com|
-|Pre-prod|jdbc:oracle:thin@example| Check the config repository | example.com|
-|Test|jdbc:oracle:thin@example| username: xxxx password: zzz | example.com|
-|Dev|jdbc:oracle:thin@example| username: xxxx password: zzz | example.com|
+| Env.     | Connection string        | Credentials                  | DNS cnames  |
+|----------|--------------------------|------------------------------|-------------|
+| Prod     | jdbc:oracle:thin@example | Check the config repository  | example.com |
+| Pre-prod | jdbc:oracle:thin@example | Check the config repository  | example.com |
+| Test     | jdbc:oracle:thin@example | username: xxxx password: zzz | example.com |
+| Dev      | jdbc:oracle:thin@example | username: xxxx password: zzz | example.com |
 
 ### Additional configuration
 
