@@ -1,6 +1,26 @@
 # Project templates
 
-Examples of README files for various projects and Confluence pages. Each of them is focused on different issues.
+Examples of README files for various projects, Confluence pages and ADRs.
+
+## ADR (Architecture Decision Record)
+
+An architecture decision record (ADR) is a document that captures an important architecture decision made along with its context and consequences.
+
+Homepage of the ADR GitHub organization: <https://adr.github.io/>
+
+Reference: <https://github.com/joelparkerhenderson/architecture-decision-record>
+
+### General
+
+A general-purpose ADR template.
+
+## Confluence
+
+### General
+
+A general-purpose Confluence structure for project's documentation.
+
+[General-purpose template](confluence/general/page.md)
 
 ## README
 
@@ -17,11 +37,3 @@ A general-purpose README contains basic information about a medium-sized project
 A demo README which might be useful for demo/poc (proof of concept) projects.  
 
 [Demo template](readme/demo/readme.md)
-
-## Confluence
-
-### General
-
-A general-purpose Confluence structure for project's documentation.
-
-[General-purpose template](confluence/general/page.md)
