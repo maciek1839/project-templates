@@ -1,4 +1,4 @@
-image: node:16.20.0-slim
+image: node:16.20.0-slim@sha256:ad8435d974838c10fdbbbcf607b829cc64131210150ce9585b8292130e677ab4
 
 before_script:
   - echo ':before_script'
